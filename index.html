@@ -4,71 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tharun's Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS -->
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background: #f4f4f9;
-            color: #333;
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: #f1f1f1;
             text-align: center;
         }
         header {
-            background: #333;
-            color: white;
+            background: #1f1f1f;
             padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
         }
         nav a {
-            color: white;
+            color: #f1f1f1;
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
+            transition: 0.3s;
         }
         nav a:hover {
-            text-decoration: underline;
+            color: #00ffcc;
         }
         .intro {
-            padding: 50px 20px;
+            padding: 60px 20px;
         }
         .intro h1 {
-            font-size: 2rem;
+            font-size: 2.5rem;
             margin-bottom: 10px;
         }
         .intro p {
-            font-size: 1rem;
-            color: #555;
+            font-size: 1.2rem;
+            color: #ccc;
         }
         footer {
-            background: #333;
-            color: white;
-            padding: 10px 0;
+            background: #1f1f1f;
+            padding: 10px;
             margin-top: 40px;
             font-size: 0.9rem;
+            color: #aaa;
         }
     </style>
 </head>
 <body>
 
+    <!-- Header + Navigation -->
     <header>
-        <h2>Tharun's Portfolio</h2>
         <nav>
             <a href="index.html">Home</a>
             <a href="profile.html">Profile</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
             <a href="https://share.google/bKuDMSWl1CtUkw7fu" target="_blank">GitHub</a>
         </nav>
     </header>
 
+    <!-- Intro Section -->
     <section class="intro">
-        <h1>Hello, I'm Tharun Kumar 👋</h1>
-        <p>Welcome to my portfolio website.  
-           I am interested in HTML & CSS and exploring new web technologies.</p>
+        <h1>Hi, I'm Tharun 👋</h1>
+        <p>Welcome to my personal portfolio.  
+        Here you’ll find my projects, profile, and more.</p>
     </section>
 
+    <!-- Footer -->
     <footer>
-        &copy; 2025 Tharun Kumar | All Rights Reserved
+        <p>© 2025 Tharun Kumar | Built with ❤️</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
